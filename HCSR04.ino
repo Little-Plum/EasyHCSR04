@@ -24,5 +24,5 @@ void loop() {
   Serial.print("Sensor1:");
   Serial.print(sensor1.getDistance());//直接调用getDistance()方法即可，单位为厘米。
   Serial.println();
-  sleep(100);//手册建议测量周期在100以上，此处也可防止模块过热。
+  delay(100);//手册建议测量周期在100以上，此处也可防止模块过热。
 }
