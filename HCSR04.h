@@ -22,7 +22,7 @@ HCSR04::HCSR04(int trig,int echo)
 {
   pinTrigger = trig;
   pinEcho = echo;
-  pinMode(pinTrig,OUTPUT);
+  pinMode(pinTrigger,OUTPUT);
 }
 //True to return in cm,false to return in inches.
 double HCSR04::getDistance()
